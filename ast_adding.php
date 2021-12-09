@@ -1,7 +1,7 @@
 <?php
 /* connecting this file to link file where the connection details between the database are saved*/
 include 'link.php';
-include 'validation 2.php';
+include 'validation2.php';
 /*getting the details from the form and saving it into the variables*/
 $astronaut_name = $_POST["ast_name"];
 $astronaut_no_missions = $_POST["ast_no_missions"];
