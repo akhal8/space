@@ -84,7 +84,7 @@
     }  
     /*if there's 0 result just right o result*/
     else {
-    echo "There's no data stores in the table currently";
+    echo "There's no data stored in the table currently";
     }
     /*close the connection to the database*/
     mysqli_close($connection);

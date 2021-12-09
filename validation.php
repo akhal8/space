@@ -10,7 +10,7 @@ if ($crewsize <= 1){
 }
 /* if data is bigger than 1 write it worked*/
 else {
-    echo "You have correctly put the inside the database!";
+    echo "You have correctly put the data inside the database!";
 }
 
 ?>
