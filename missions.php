@@ -46,12 +46,12 @@
         <!-- Another column class to put the form inside, justify-content-center to put the column in the middle, 
         text center to move the text in the middle and p is used for the padding.-->
         <div class="col-md-12 justify-content-center text-center p-2">
-        <div class= "p-1">Mission Name</div> <input type="text" name="name"><br>
-        <div class= "p-1">Destination</div> <input type="text" name="destination"><br>
-        <div class= "p-1">Launch date</div> <input type="date" name="date"><br>
-        <div class= "p-1">Mission Type</div> <input type="text" name="type"><br>
-        <div class= "p-1">Crew Size</div> <input type="Number" name="crewsize"><br>
-        <div class= "p-1">Target Id</div> <input type="Number" name="target_no"><br>
+        <div class= "p-1">Mission Name</div> <input type="text" name="name" placeholder="James"><br>
+        <div class= "p-1">Destination</div> <input type="text" name="destination" placeholder="London"><br>
+        <div class= "p-1">Launch date</div> <input type="date" name="date" placeholder="21/08/2021"><br>
+        <div class= "p-1">Mission Type</div> <input type="text" name="type" placeholder="Extreme"><br>
+        <div class= "p-1">Crew Size</div> <input type="Number" name="crewsize" placeholder="more than 1"><br>
+        <div class= "p-1">Target Id</div> <input type="Number" name="target_no placeholder="1,2,3..."><br>
         <div class= "p-1"><input type="submit"></div>
         </div>
         </form>
