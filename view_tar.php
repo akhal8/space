@@ -48,6 +48,7 @@
     <!-- creating a table with table tag, tr for table row and th for table header-->
     <table class="table table-sm p-2 text-center">
       <tr>
+      <th scope="col p-2">Id</th>
       <th scope="col p-2">Name</th>
       <th scope="col p-2">First Mission</th>
       <th scope="col p-2">Type</th>
