@@ -5,10 +5,18 @@ include 'validation2.php';
 /*getting the details from the form and saving it into the variables*/
 
 
-if(isset($_POST['ast_submit'])){
+if (isset($_POST['ast_submit'])){ 
 
-$astronaut_name = $_POST["ast_name"];
-$astronaut_no_missions = $_POST["ast_no_missions"];
+    if(empty($_POST['last_name'])){
+      echo'Name is required <br />';
+    }
+    else{
+      echo htmlspecialchars($_POST['last_name']);
+    }
+}
+
+$astronaut_name = $_POST["last_name"];
+$astronaut_no_missions = $_POST["no_missions"];
 
 /* creating a query to put the data that we saved in variables and put that in the database table astronaut in different coloumns*/
 $sql = "INSERT INTO astronaut(name, no_mission) VALUES ('$astronaut_name', '$astronaut_no_missions')";  
@@ -21,6 +29,6 @@ if(!mysqli_query($connection, $sql)){
 else{
     echo "Data Inserted";
 }
-}
+
 /*This code is used to close the connection with the database*/
 mysqli_close($connection);
