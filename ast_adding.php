@@ -11,7 +11,7 @@ $sql = "INSERT INTO astronaut(name, no_mission) VALUES ('$astronaut_name', '$ast
 /*Creating an if statement to check if query is successfull or */
 /*if the query is unsuccesfull show an error*/
 if(!mysqli_query($connection, $sql)){
-    die("Error:".mysqli_error($connection));
+    echo "<script>alert('oops! Some Error, Try Again!!!!')</script>";
 }
 /*if the query is successfull write Data Inserted*/
 else{
