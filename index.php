@@ -60,7 +60,6 @@
             <a href='target.php'><button>Add Targets</button></a>
             <a href='view_tar.php'><button>View Targets</button></a>
         </div>    
-        </div>
       </div>
     </body>
 </html>
