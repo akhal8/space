@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
   } else {  
        $ast_name = ($_POST["ast_name"]);  
     //         //check if name only contains letters and whitespace  
-           if (!preg_match("/^[0-9]*$/",$ast_name)) {  
+           if (!preg_match("/^[a-zA-Z ]*$/",$ast_name)) {  
             $ast_errors['ast_name'] = 'An Input of characters with our without whitespaces is required';
          }
        }
