@@ -59,7 +59,8 @@
         </div>
       </div>
     </nav>
-        <!-- row and column used to make a space for the form, justify-content to move the content and text center to move the text to center-->
+        <!-- row and column used to make a space for the form, justify-content to move the content and text center to move the text to center and
+        Placeholder usedd to give user hint on what to put in the textbox.-->
         <div class="col-md-12 justify-content-center text-center">
         <!-- form action to connect to another file which allows the form to connect to database using the method POST-->
         <form action="att_adding.php" method="POST">

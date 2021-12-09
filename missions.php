@@ -44,7 +44,8 @@
         <!-- Creating a form which connects with another file to save the data inside the database using the method POST-->
         <form action="Mis_adding.php" method="POST">
         <!-- Another column class to put the form inside, justify-content-center to put the column in the middle, 
-        text center to move the text in the middle and p is used for the padding.-->
+        text center to move the text in the middle and p is used for the padding. Placeholder usedd to give user hint on what to 
+        put in the textbox.-->
         <div class="col-md-12 justify-content-center text-center p-2">
         <div class= "p-1">Mission Name</div> <input type="text" name="name" placeholder="James"><br>
         <div class= "p-1">Destination</div> <input type="text" name="destination" placeholder="London"><br>

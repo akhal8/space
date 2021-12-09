@@ -41,6 +41,8 @@
         </div>
       </div>
     </nav>
+        <!-- class column to create a form, justify content to move the content, text center to move the text, p2 for the padding and 
+        Placeholder usedd to give user hint on what to put in the textbox.-->
         <div class="col-md-12 justify-content-center text-center p-2">
         <form action="ast_adding.php" method="POST">
         <div class= "p-1">Astronaut name</div> <input type="text" name="name" placeholder="James"><br>
