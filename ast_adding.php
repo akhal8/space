@@ -9,10 +9,18 @@ if (isset($_POST['ast_submit'])){
 
     if(empty($_POST['last_name'])){
       echo'Name is required <br />';
+      die('Could not connect:'.mysqli_error());
     }
     else{
       echo htmlspecialchars($_POST['last_name']);
     }
+    if(empty($_POST['no_missions'])){
+        echo'Number of Mission is required <br />';
+        die('Could not connect:'.mysqli_error());
+      }
+      else{
+        echo htmlspecialchars($_POST['no_missions']);
+      }
 }
 
 $astronaut_name = $_POST["last_name"];
