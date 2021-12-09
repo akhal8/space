@@ -2,7 +2,7 @@
 
 $ast_name = $ast_no_missions = "";
 $ast_errors = array('ast_name' => '','ast_no_missions' =>'');
-if (isset($_POST['submit'])) {
+if (isset($_POST['ast_submit'])) {
   
 
     if (empty($_POST["ast_name"])) {  
