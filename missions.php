@@ -51,7 +51,7 @@
         <div class= "p-1">Launch date</div> <input type="date" name="date" placeholder="21/08/2021"><br>
         <div class= "p-1">Mission Type</div> <input type="text" name="type" placeholder="Extreme"><br>
         <div class= "p-1">Crew Size</div> <input type="Number" name="crewsize" placeholder="more than 1"><br>
-        <div class= "p-1">Target Id</div> <input type="Number" name="target_no placeholder="1,2,3..."><br>
+        <div class= "p-1">Target Id</div> <input type="Number" name="target_no" placeholder="1,2,3..."><br>
         <div class= "p-1"><input type="submit"></div>
         </div>
         </form>
