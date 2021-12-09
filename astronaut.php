@@ -7,33 +7,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-      <?php
-      $ast_name = $ast_no_missions = "";
-      $ast_errors = array('ast_name' => '','ast_no_missions' =>'');
-      if (isset($_POST['ast_submit'])) {
-        
-      
-          if (empty($_POST["ast_name"])) {  
-              $ast_errors['ast_name'] = 'An Input of characters with our without whitespaces is required';  
-        } else {  
-             $ast_name = ($_POST["ast_name"]);  
-          //         //check if name only contains letters and whitespace  
-                 if (!preg_match("/^[a-zA-Z ]*$/",$ast_name)) {  
-                  $ast_errors['ast_name'] = 'An Input of characters with our without whitespaces is required';
-               }
-             }
-          if (empty($_POST["ast_no_missions"])) {  
-              $ast_errors['ast_no_missions'] = 'An Input of into this field is required*';  
-          } else {  
-              $ast_no_missions = ($_POST["ast_no_missions"]);  
-                   //check if name only contains letters and whitespace  
-                   if (!preg_match("/^[a-zA-Z ]*$/",$ast_no_missions)) {  
-                      $ast_errors['ast_no_missions'] = 'An Input of date is required';
-               }
-             }
-                
-      } 
-      ?>
         <!-- Class row and column used to create a space for main title of the page, justify content to move the content to the center,
         bg is used for background and text-white is to make the text white-->
         <div class="row">
@@ -72,10 +45,10 @@
         Placeholder usedd to give user hint on what to put in the textbox.-->
         <div class="col-md-12 justify-content-center text-center p-2">
         <form action="ast_adding.php" method="POST">
-        <label style="font-size: 12pt; color: blue;"><?php echo $ast_errors['ast_name']; ?></label>
-        <div class= "p-1">Astronaut name</div> <input type="text" name="ast_name" placeholder="James"><br>
-        <label style="font-size: 12pt; color: blue;"><?php echo $ast_errors['ast_no_missions']; ?></label>
-        <div class= "p-1">Number of Missions</div> <input type="text" name="ast_no_missions" placeholder="10,11,20..."><br>
+        <div class= "p-1">Astronaut name</div> <input type="text" name="last_name" placeholder="James" value="<?php echo htmlspecialchars($email) ?>"><br>
+        <div class="red-text"><?php echo $errors['last_name']; ?></div>
+        <div class="p-1"> Number of Missions</div> <imput type="text" name="no_missions" placeholder="10,11,20..." value="<?php echo htmlspecialchars($title) ?>" ><br>
+        <div class="red-text"><?php echo $errors['o_missions']; ?></div>
         <div class= "p-1"><input type="submit" name="ast_submit"></div>
         </form>
         <a div class="col-md-12 justify-content-center text-center p-2" href='index.php'><button>Main Page</button></a>
