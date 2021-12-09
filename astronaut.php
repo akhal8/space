@@ -48,9 +48,9 @@
         Placeholder usedd to give user hint on what to put in the textbox.-->
         <div class="col-md-12 justify-content-center text-center p-2">
         <form action="ast_adding.php" method="POST">
-        <label style="font-size: 12pt; color: blue;"><?php echo $errors['ast_name']; ?></label>
+        <label style="font-size: 12pt; color: blue;"><?php echo $ast_errors['ast_name']; ?></label>
         <div class= "p-1">Astronaut name</div> <input type="text" name="ast_name" placeholder="James"><br>
-        <label style="font-size: 12pt; color: blue;"><?php echo $errors['ast_no_missions']; ?></label>
+        <label style="font-size: 12pt; color: blue;"><?php echo $ast_errors['ast_no_missions']; ?></label>
         <div class= "p-1">Number of Missions</div> <input type="text" name="ast_no_missions" placeholder="10,11,20..."><br>
         <div class= "p-1"><input type="submit"></div>
         </form>
