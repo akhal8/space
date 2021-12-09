@@ -77,8 +77,8 @@
     /*if the result is more than 0 run a while loop and put all the results from the different coloumn*/
     if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {
-    echo "<tr><td>" . $row["name"]. "</td><td>" . $row["first_mission"]. "</td><td>" . $row["type"]. 
-    "</td><td>". $row ["no_missions"]."</td><td>". $row["no_missions"];
+    echo "<tr><td>".$row["id"]. "</td><td>" . $row["name"]. "</td><td>" . $row["first_mission"]. "</td><td>" . $row["type"]. 
+    "</td><td>". $row ["no_missions"]."</td><td>". $row["no_missions"]. "</td></tr>";
     }
     }  
     /*if there's 0 result just right o result*/
