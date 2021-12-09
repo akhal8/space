@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <title>Space Mission</title>
         <!--links which are used to connect with bootstrap framework css and js latest version-->
@@ -15,6 +15,7 @@
             <!--using heading 1 for the title-->
             <h1>Space Mission</h1>
         </div>
+      </div>  
         <nav class="navbar navbar-expand-lg navbar-light bg-light border border-warning">
       <div class="container-fluid">
         <!--a creates a link to the text, here its creating a link for petshop so when user clicks on pets it opens index.html-->
@@ -60,5 +61,6 @@
             <a href='view_tar.php'><button>View Targets</button></a>
         </div>    
         </div>
+      </div>
     </body>
 </html>
