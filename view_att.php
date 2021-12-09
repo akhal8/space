@@ -51,8 +51,8 @@
     <?php
       /* connecting to the database by giving the database name, username, password and host.*/
       define("DB_NAME", "space_mission");
-      define("DB_USER", "root");
-      define("DB_PASSWORD", "");
+      define("DB_USER", "admin");
+      define("DB_PASSWORD", "password");
       define("DB_HOST", "localhost");
 
       $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);

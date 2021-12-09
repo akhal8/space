@@ -1,8 +1,8 @@
 <?php
 /* connecting to the database by writing the name of database, username, password and host*/ 
 define("DB_NAME", "space_mission");
-define("DB_USER", "root");
-define("DB_PASSWORD", "");
+define("DB_USER", "admin");
+define("DB_PASSWORD", "password");
 define("DB_HOST", "localhost");
 
 /*using the connection variable to connect to the database with details that i have wrote above*/
