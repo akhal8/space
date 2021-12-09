@@ -70,8 +70,8 @@
     /*using if statemnt to see if there's more than one result*/
     /*if the result is more than 0 run a while loop and put all the results from the different coloumn*/
     if (mysqli_num_rows($result) > 0) {
-    while($row = mysqli_fetch_assoc($result)) {
-    echo "<tr><td>" . $row["astronaut_id"]. "</td><td>" . $row["name"]. "</td><td>". $row ["no_mission"]."</td></tr>";
+    while($tb_row = mysqli_fetch_assoc($result)) {
+    echo "<tr><td>" . $tb_row["astronaut_id"]. "</td><td>" . $tb_row["name"]. "</td><td>". $tb_row ["no_mission"]."</td></tr>";
     }
     }  
     /*if there's 0 result just right o result*/
