@@ -7,7 +7,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-
+    <?php include 'validation2.php'; ?>
         <!-- Class row and column used to create a space for main title of the page, justify content to move the content to the center,
         bg is used for background and text-white is to make the text white-->
         <div class="row">
