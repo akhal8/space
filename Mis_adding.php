@@ -22,7 +22,7 @@ if(!mysqli_query($connection, $sql)){
 }
 /*if the query is succesfull write data inserted*/
 else{
-    echo "Success, Your have been stored data into the database. <a href='index.php'";
+    echo "Success, Your have been stored data into the database.<script> <a href='index.php'</script>";
 }
 /*This code is used to close the connection with the database*/
 mysqli_close($connection);
