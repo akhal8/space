@@ -76,7 +76,7 @@
     if (mysqli_num_rows($result) > 0) {
     /* if the result is more than 0 run a while loop to put the details from the table mission and it's columns.*/
     while($tb_row = mysqli_fetch_assoc($result)) {
-    echo "<tr><td>"$tb_row["mission_Id"]."</td><td>". $tb_row["name"]. "</td><td>" . $tb_row["destination"]. "</td><td>" . $tb_row["launch_date"]. 
+    echo "<tr><td>". $tb_row["mission_Id"]."</td><td>". $tb_row["name"]. "</td><td>" . $tb_row["destination"]. "</td><td>" . $tb_row["launch_date"]. 
     "</td><td>". $tb_row["type"]. "</td><td>". $tb_row ["crew_size"]."</td><td>". $tb_row["target_id"]."</td></tr>";
     }
     /*If there's no result found just write 0 result*/
