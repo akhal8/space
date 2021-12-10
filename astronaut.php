@@ -49,7 +49,8 @@
         <div class="p-1"> Number of Missions</div> <input type="Number" name="no_missions" placeholder="10,11,20..." required><br>
         <div class= "p-1"><input type="submit" name="ast_submit"></div>
         </form>
-        <a div class="col-md-12 justify-content-center text-center p-2" href='index.php'><button>Main Page</button></a>
-        <a div class="col-md-12 justify-content-center text-center p-2" href='view_ast.php'><button>View Astronauts</button></a>
+        <!-- creating a button with links to other pages with light blue colour-->
+        <a class="btn btn-info" href="index.php" role="button">Main Page</a>
+        <a class="btn btn-info" href="view_ast.php" role="button">View Astronauts</a>
     </body>
 </html>

@@ -68,8 +68,9 @@
         <div class= "form_type">Astronaut id</div> <input type="Integer" name="astronaut" placeholder="astronautid from astronaut table" required> <br>
         <div class= "sub_button"><input type="submit"></div>
         </form>
-        <!-- column class to create a space for the button, justify-content to move the content and text-center to move the text in the middle--> 
-        <a class="col-md-12 justify-content-center text-center p-2" href='index.php'><button>Main Page</button></a>
-        <a class="col-md-12 justify-content-center text-center p-2" href='view_att.php'><button>View Attends</button></a>
+        </div>
+        <!-- creating a button with links to other pages with light blue colour-->
+        <a class="btn btn-info" href="index.php" role="button">Main Page</a>
+        <a class="btn btn-info" href="view_att.php" role="button">View Attends</a>
     </body>
 </html>

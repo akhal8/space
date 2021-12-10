@@ -53,8 +53,9 @@
         <div class= "p-2"><input type="submit"></div>
         </div>
         </form>
-        <!-- col class use to make a space for the link and button, justify-content to move the content to the center and text-center to move the text center-->
-        <a div class="col-md-12 justify-content-center text-center p-2" href='index.php'><button>Main Page</button></a>
+        <!-- creating a button with links to other pages with light blue colour-->
+        <a class="btn btn-info" href="index.php" role="button">Main Page</a>
         <a div class="col-md-12 justify-content-center text-center p-2" href='view_tar.php'><button>View targets</button></a>  
-    </body>
+        <a class="btn btn-info" href="view_tar.php" role="button">View targets</a>
+      </body>
 </html>
