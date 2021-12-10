@@ -4,6 +4,7 @@ include 'link.php';
 include 'validation2.php';
 
 /*saving the details from the for into variables*/
+/*validation_form is for the function that is for validating user data.*/
 $mission_id = validation_form($_POST["mission"]);
 $astronaut_id = validation_form($_POST["astronaut"]);
 

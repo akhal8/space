@@ -3,6 +3,7 @@
 include 'link.php';
 include 'validation2.php';
 /*saving the details from the form into the varibales.*/
+/*validation_form is for the function that is for validating user data.*/
 $name = validation_form($_POST["name"]);
 $no_missions = validation_form($_POST["first_missions"]);
 $mis_type = validation_form($_POST["missions"]);
