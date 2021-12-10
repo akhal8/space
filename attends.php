@@ -68,9 +68,10 @@
         <div class= "form_type">Astronaut id</div> <input type="Integer" name="astronaut" placeholder="astronautid from astronaut table" required> <br>
         <div class= "sub_button"><input type="submit"></div>
         </form>
-        </div>
+        
         <!-- creating a button with links to other pages with light blue colour-->
         <a class="btn btn-info" href="index.php" role="button">Main Page</a>
         <a class="btn btn-info" href="view_att.php" role="button">View Attends</a>
+        </div>
     </body>
 </html>

@@ -52,5 +52,6 @@
         <!-- creating a button with links to other pages with light blue colour-->
         <a class="btn btn-info" href="index.php" role="button">Main Page</a>
         <a class="btn btn-info" href="view_ast.php" role="button">View Astronauts</a>
+        </div>
     </body>
 </html>

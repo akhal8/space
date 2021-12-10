@@ -55,7 +55,6 @@
         </form>
         <!-- creating a button with links to other pages with light blue colour-->
         <a class="btn btn-info" href="index.php" role="button">Main Page</a>
-        <a div class="col-md-12 justify-content-center text-center p-2" href='view_tar.php'><button>View targets</button></a>  
         <a class="btn btn-info" href="view_tar.php" role="button">View targets</a>
       </body>
 </html>
