@@ -4,17 +4,14 @@ include 'link.php';
 include 'validation2.php';
 /*getting the details from the form and saving it into the variables*/
 
+
 if (isset($_POST['ast_submit'])){ 
 
     if(empty($_POST['last_name'])){
       echo'Name is required <br />';
     }
     else{
-      else {
-        if(!preg_match('/^[a-zA-z\s]+$/', $last_name)){
-          $errors['last_name'] = 'Name should be in letters and spaces only';
-        }
-      }
+      echo htmlspecialchars($_POST['last_name']);
     }
     if(empty($_POST['no_missions'])){
         echo'Number of Mission is required <br />';
