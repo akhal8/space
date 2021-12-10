@@ -47,7 +47,7 @@
         <div class="col-md-12 justify-content-center text-center p-2">
         <form action="ast_adding.php" method="POST">
         <div class= "p-1">Astronaut name</div> <input type="text" name="last_name" placeholder="James"><br>
-        <div class="p-1"> Number of Missions</div> <input type="text" name="no_missions" placeholder="10,11,20..."><br>
+        <div class="p-1"> Number of Missions</div> <input type="Number" name="no_missions" placeholder="10,11,20..."><br>
         <div class= "p-1"><input type="submit" name="ast_submit"></div>
         </form>
         <a div class="col-md-12 justify-content-center text-center p-2" href='index.php'><button>Main Page</button></a>
