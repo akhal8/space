@@ -11,7 +11,6 @@ if (isset($_POST['ast_submit'])){
     }
     else{
       else {
-        $last_name = $_POST['last_name'];
         if(!preg_match('/^[a-zA-z\s]+$/', $last_name)){
           $errors['last_name'] = 'Name should be in letters and spaces only';
         }
