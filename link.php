@@ -14,6 +14,6 @@ if (!$connection) {
 }
 /*if the connection is successfull write it worked*/
 else {
-    echo "the connection to the database was succussful";
+    echo "the connection to the database was succussful and the data was correclty inserted";
 }
 ?>
