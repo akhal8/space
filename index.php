@@ -48,7 +48,7 @@
         <div class="col-md-12 text-center text-white p-5">
         <!-- Creating a heading with heading 3 and than linking to another pages with buttons-->
         <h3>Missions</h3>
-            <a href='missions.php'><button>Add Missions</button></a>
+            <a class="btn btn-white" href="missions.php" role="button">Add Missions</a>
             <a href='view_mis.php'><button>View Missions</button></a>
         <h3>Astronauts</h3>
             <a href='astronaut.php'><button>Add Astronauts</button></a>
