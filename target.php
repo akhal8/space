@@ -46,10 +46,10 @@
         <!-- Class p-2 is used for padding-->
         <form action="tar_adding.php" method="POST">
         <div class="col-md-12 justify-content-center text-center">
-        <div class= "p-2">Target name</div> <input type="text" name="name" placeholder="Target name"><br>
-        <div class= "p-2">Date of First Mission</div> <input type="date" name="first_missions" placeholder="Date of first mission"><br>
-        <div class= "p-2">Type of Mission</div> <input type="text" name="missions" placeholder="Type of mission"><br>
-        <div class= "p-2">Number of Mission:</div> <input type="text" name="target_num" placeholder="Mission no for targets"><br>
+        <div class= "p-2">Target name</div> <input type="text" name="name" placeholder="Target name" required><br>
+        <div class= "p-2">Date of First Mission</div> <input type="date" name="first_missions" placeholder="Date of first mission" required><br>
+        <div class= "p-2">Type of Mission</div> <input type="text" name="missions" placeholder="Type of mission" required><br>
+        <div class= "p-2">Number of Mission:</div> <input type="text" name="target_num" placeholder="Mission no for targets" required><br>
         <div class= "p-2"><input type="submit"></div>
         </div>
         </form>

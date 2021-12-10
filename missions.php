@@ -47,12 +47,12 @@
         text center to move the text in the middle and p is used for the padding. Placeholder usedd to give user hint on what to 
         put in the textbox.-->
         <div class="col-md-12 justify-content-center text-center p-2">
-        <div class= "p-1">Mission Name</div> <input type="text" name="name" placeholder="James"><br>
-        <div class= "p-1">Destination</div> <input type="text" name="destination" placeholder="London"><br>
-        <div class= "p-1">Launch date</div> <input type="date" name="date" placeholder="21/08/2021"><br>
-        <div class= "p-1">Mission Type</div> <input type="text" name="type" placeholder="Extreme"><br>
-        <div class= "p-1">Crew Size</div> <input type="Number" name="crewsize" placeholder="more than 1"><br>
-        <div class= "p-1">Target Id</div> <input type="Number" name="target_no" placeholder="1,2,3..."><br>
+        <div class= "p-1">Mission Name</div> <input type="text" name="name" placeholder="James" required><br>
+        <div class= "p-1">Destination</div> <input type="text" name="destination" placeholder="London" required><br>
+        <div class= "p-1">Launch date</div> <input type="date" name="date" placeholder="21/08/2021" required><br>
+        <div class= "p-1">Mission Type</div> <input type="text" name="type" placeholder="Extreme" required><br>
+        <div class= "p-1">Crew Size</div> <input type="Number" name="crewsize" placeholder="more than 1" required><br>
+        <div class= "p-1">Target Id</div> <input type="Number" name="target_no" placeholder="1,2,3..." required><br>
         <div class= "p-1"><input type="submit"></div>
         </div>
         </form>

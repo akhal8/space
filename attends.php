@@ -64,8 +64,8 @@
         <div class="col-md-12 justify-content-center text-center">
         <!-- form action to connect to another file which allows the form to connect to database using the method POST-->
         <form action="att_adding.php" method="POST">
-        <div class= "form_name">Mission id</div> <input type="Integer" name="mission" placeholder="Missionid from mission table"><br>
-        <div class= "form_type">Astronaut id</div> <input type="Integer" name="astronaut" placeholder="astronautid from astronaut table"> <br>
+        <div class= "form_name">Mission id</div> <input type="Integer" name="mission" placeholder="Missionid from mission table" required><br>
+        <div class= "form_type">Astronaut id</div> <input type="Integer" name="astronaut" placeholder="astronautid from astronaut table" required> <br>
         <div class= "sub_button"><input type="submit"></div>
         </form>
         <!-- column class to create a space for the button, justify-content to move the content and text-center to move the text in the middle--> 
