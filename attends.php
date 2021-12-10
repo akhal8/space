@@ -69,7 +69,7 @@
         <div class= "sub_button"><input type="submit"></div>
         </form>
         <!-- column class to create a space for the button, justify-content to move the content and text-center to move the text in the middle--> 
-        <button><a class="col-md-12 justify-content-center text-center p-2" href='index.php'>Main Page</a></button>
-        <button><a class="col-md-12 justify-content-center text-center p-2" href='view_att.php'>View Attends</a></button>
+        <a class="col-md-12 justify-content-center text-center p-2" href='index.php'><button>Main Page</button></a>
+        <a class="col-md-12 justify-content-center text-center p-2" href='view_att.php'><button>View Attends</button></a>
     </body>
 </html>
