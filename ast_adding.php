@@ -2,24 +2,8 @@
 /* connecting this file to link file where the connection details between the database are saved*/
 include 'link.php';
 include 'validation2.php';
+
 /*getting the details from the form and saving it into the variables*/
-
-
-// if (isset($_POST['ast_submit'])){ 
-
-//     if(empty($_POST['last_name'])){
-//       echo'Name is required <br />';
-//     }
-//     else{
-//       echo htmlspecialchars($_POST['last_name']);
-//     }
-//     if(empty($_POST['no_missions'])){
-//         echo'Number of Mission is required <br />';
-//       }
-//       else{
-//         echo htmlspecialchars($_POST['no_missions']);
-//       }
-// }
 
 $astronaut_name = test_input($_POST["last_name"];
 $astronaut_no_missions = test_input($_POST["no_missions"];
@@ -38,3 +22,4 @@ else{
 
 /*This code is used to close the connection with the database*/
 mysqli_close($connection);
+?>
