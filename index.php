@@ -48,17 +48,18 @@
         <div class="col-md-12 text-center text-white p-5">
         <!-- Creating a heading with heading 3 and than linking to another pages with buttons-->
         <h3>Missions</h3>
-            <a class="btn btn-white" href="missions.php" role="button">Add Missions</a>
-            <a href='view_mis.php'><button>View Missions</button></a>
+            <a class="btn btn-primary" href="missions.php" role="button">Add Missions</a>
+            <a class="btn btn-primary" href="view_mis.php" role="button">View Missions</a>
         <h3>Astronauts</h3>
-            <a href='astronaut.php'><button>Add Astronauts</button></a>
-            <a href='view_ast.php'><button>View Astronauts</button></a>
+            <a class="btn btn-primary" href="astronaut.php" role="button">Add Astronauts</a>
+            <a class="btn btn-primary" href="view_ast.php" role="button">View Astronauts</a>
         <h3>Attends</h3>
-            <a href='attends.php'><button>Add attends</button></a>
+            <a class="btn btn-primary" href="attends.php" role="button">Add attends</a>
             <a href='view_att.php'><button>View Attends</button></a>
+            <a class="btn btn-primary" href="view_att.php" role="button">View attends</a>
         <h3>Targets</h3>
-            <a href='target.php'><button>Add Targets</button></a>
-            <a href='view_tar.php'><button>View Targets</button></a>
+            <a class="btn btn-primary" href="target.php" role="button">Targets</a>
+            <a class="btn btn-primary" href="view_tar.php" role="button">View Targets</a>
         </div>    
       </div>
     </body>
