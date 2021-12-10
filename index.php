@@ -58,7 +58,7 @@
             <a href='view_att.php'><button>View Attends</button></a>
         <h3>Targets</h3>
             <a href='target.php'><button>Add Targets</button></a>
-            <button><a href='view_tar.php'><button>View Targets</button></a>
+            <a href='view_tar.php'><button>View Targets</button></a>
         </div>    
       </div>
     </body>
