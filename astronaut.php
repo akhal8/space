@@ -7,6 +7,24 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
+      <?php 
+        $last_name = $no_missions = '';
+        $errors = array('last_name' => '', 'no_missions' => '');
+
+        if (isset($_POST['ast_submit'])){ 
+
+          if (empty($_POST['last_name'])){
+            $errors['last_name'] = 'A name is required';
+          } else {
+            $last_name = $_POST['last_name'];
+            if(!preg_match('/^[a-zA-z\s]+$/', $last_name)){
+              $errors['last_name'] = 'Name should be in letters and spaces only'
+            }
+          }
+        }
+      ?>
+
+
         <!-- Class row and column used to create a space for main title of the page, justify content to move the content to the center,
         bg is used for background and text-white is to make the text white-->
         <div class="row">
@@ -47,7 +65,7 @@
         <form action="ast_adding.php" method="POST">
         <div class= "p-1">Astronaut name</div> <input type="text" name="last_name" placeholder="James" <?php echo htmlspecialchars($last_name)?><br>
         <div class="red-text"><?php echo $errors['last_name']; ?> </div>
-        <div class="p-1"> Number of Missions</div> <input type="text" name="no_missions" placeholder="10,11,20..."<?php echo htmlspecialchars($no_missions)?><br>
+        <div class="p-1"> Number of Missions</div> <input type="text" name="no_missions" placeholder="10,11,20..." required<?php echo htmlspecialchars($no_missions)?><br>
         <div class="red-text"><?php echo $errors['no_missions']; ?> </div>
         <div class= "p-1"><input type="submit" name="ast_submit"></div>
         </form>
