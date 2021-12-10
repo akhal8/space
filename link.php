@@ -14,6 +14,7 @@ if (!$connection) {
 }
 /*if the connection is successfull write it worked*/
 else {
-    echo "the connection to the database was succussful and the data was correclty inserted into the database";
+    echo "the connection to the database was succussful and the data was correclty inserted into the database.";
+    echo'<a href="index.php">Home Page</a>';
 }
 ?>
