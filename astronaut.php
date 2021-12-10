@@ -18,7 +18,7 @@
           } else {
             $last_name = $_POST['last_name'];
             if(!preg_match('/^[a-zA-z\s]+$/', $last_name)){
-              $errors['last_name'] = 'Name should be in letters and spaces only'
+              $errors['last_name'] = 'Name should be in letters and spaces only';
             }
           }
         }
@@ -65,7 +65,7 @@
         <form action="ast_adding.php" method="POST">
         <div class= "p-1">Astronaut name</div> <input type="text" name="last_name" placeholder="James" value=" <?php echo htmlspecialchars($last_name)?> "><br>
         <div class="red-text"><?php echo $errors['last_name']; ?> </div>
-        <div class="p-1"> Number of Missions</div> <input type="text" name="no_missions" placeholder="10,11,20..." required value="<?php echo htmlspecialchars($no_missions)?>"><br>
+        <div class="p-1"> Number of Missions</div> <input type="text" name="no_missions" placeholder="10,11,20..." value="<?php echo htmlspecialchars($no_missions)?>"><br>
         <div class="red-text"><?php echo $errors['no_missions']; ?> </div>
         <div class= "p-1"><input type="submit" name="ast_submit"></div>
         </form>
