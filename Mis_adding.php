@@ -5,6 +5,7 @@ include 'validation.php';
 include 'validation2.php';
 
 /*Getting the details name from the form with their names and saving it in different databases*/
+/*validation_form is for the function that is for validating user data.*/
 $name = validation_form($_POST["name"]);
 $destination = validation_form($_POST["destination"]);
 $launch_date = validation_form($_POST["date"]);
