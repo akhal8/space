@@ -8,7 +8,7 @@
         <style>
           body {
             background ="space.jpg";
-            background-image ="space.jpg";
+            background-image: url("space.jpg");
           }
           </style>
     </head>
