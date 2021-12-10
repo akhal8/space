@@ -56,10 +56,14 @@
         <div class= "p-1"><input type="submit"></div>
         </div>
         </form>
+        <div class="row">
+        <div class="col-md-12 text-center text-white p-5">
         <!-- Creating a link with a button to move to a home page and view mission.-->
         <a class="btn btn-info" href="index.php" role="button">Main Page</a>
         <!--<a class="col-md-12 justify-content-center text-center" href='index.php'><button>Main Page</button></a>-->
         <a class="btn btn-info" href="view_mis.php" role="button">View Mission</a>
         <!--<a class="col-md-12 justify-content-center text-center p-2" href='view_mis.php'><button>View Missions</button></a>-->
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
