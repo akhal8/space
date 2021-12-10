@@ -5,20 +5,20 @@
         <!--links which are used to connect with bootstrap framework css and js latest version-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- background to put the image in the background of the page-->
         <style>
           body {
             background-image: url("space.jpg");
           }
           </style>
     </head>
-    <!-- background to put the image in the background of the page-->
     <body>
         <!-- Using bootstrap to create a class row which create a space like a row at the top of the page.
         Inside the space created a column which uses the whole space of row to add a heading in black colour and in the middle of the page.-->
         <div class="row">
             <div class="col d-flex justify-content-center text-white">
             <!--using heading 1 for the title-->
-            <h1>Space Mission</h1>
+            <h1>Space Missions</h1>
         </div>
       </div>  
         <nav class="navbar navbar-expand-lg navbar-light bg-light border border-warning">
