@@ -10,10 +10,10 @@ $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 /*creating an if statement to check if the connection is successfull or not*/
 /*if connection is failed show the error*/
 if (!$connection) {
-    die('Could not connect:'.mysqli_error());
+    die('Could not connect ot the database:'.mysqli_error());
 }
 /*if the connection is successfull write it worked*/
 else {
-    echo "It worked!";
+    echo "the connection to the database was succussful";
 }
 ?>

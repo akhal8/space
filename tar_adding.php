@@ -13,11 +13,11 @@ $sql = "INSERT INTO targets(name, first_mission, type, no_missions) VALUES ('$na
 /* using an if statement to check if the query is successful or not*/
 /*if the connection is failed show an error*/
 if(!mysqli_query($connection, $sql)){
-    die("Error:".mysqli_error($connection));
+    die("Error: There was a problem".mysqli_error($connection));
 }
 /*if the connection is successfull write data inserted*/
 else{
-    echo "Data Inserted";
+    echo "Success, Your have been stored data into the database.";
 }
 /* close the connection between the database*/
 mysqli_close($connection);

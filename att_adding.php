@@ -22,7 +22,7 @@ if ($connection ->query($sql) === TRUE){
 }
 /*if the query is unsuccessful show an error*/
 else{
-    die("Error:".mysqli_error($connection));
+    die("Error: There was a problem".mysqli_error($connection));
 }
 /*close the connection from the database*/
 mysqli_close($connection);
