@@ -48,17 +48,17 @@
         <div class="col-md-12 text-center text-white p-5">
         <!-- Creating a heading with heading 3 and than linking to another pages with buttons-->
         <h3>Missions</h3>
-            <a href='missions.php'><button>Add Missions</button></a>
-            <a href='view_mis.php'><button>View Missions</button></a>
+        <button><a href='missions.php'>Add Missions</a></button>
+        <button><a href='view_mis.php'>View Missions</a></button>
         <h3>Astronauts</h3>
-            <a href='astronaut.php'><button>Add Astronauts</button></a>
-            <a href='view_ast.php'><button>View Astronauts</button></a>
+        <button><a href='astronaut.php'>Add Astronauts</a></button>
+        <button><a href='view_ast.php'>View Astronauts</a></button>
         <h3>Attends</h3>
-            <a href='attends.php'><button>Add attends</button></a>
-            <a href='view_att.php'><button>View Attends</button></a>
+        <button><a href='attends.php'>Add attends</a></button>
+        <button><a href='view_att.php'>View Attends</a></button>
         <h3>Targets</h3>
-            <a href='target.php'><button>Add Targets</button></a>
-            <a href='view_tar.php'><button>View Targets</button></a>
+        <button><a href='target.php'>Add Targets</a></button>
+        <button><a href='view_tar.php'>View Targets</a></button>
         </div>    
       </div>
     </body>
