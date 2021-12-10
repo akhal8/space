@@ -1,6 +1,6 @@
 
 <?php
-function test_input($data) {
+function validation_form($data) {
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);

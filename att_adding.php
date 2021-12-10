@@ -4,8 +4,8 @@ include 'link.php';
 include 'validation2.php';
 
 /*saving the details from the for into variables*/
-$mission_id = test_input($_POST["mission"]);
-$astronaut_id = test_input($_POST["astronaut"]);
+$mission_id = validation_form($_POST["mission"]);
+$astronaut_id = validation_form($_POST["astronaut"]);
 
 /*Creating a query to insert the data from the variables to the table attends*/
 $sql = "INSERT INTO attends(mission_id, astronaut_id) VALUES ('$mission_id', '$astronaut_id')";
