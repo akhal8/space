@@ -51,10 +51,10 @@
         <div class= "p-2">Type of Mission</div> <input type="text" name="missions" placeholder="Type of mission" required><br>
         <div class= "p-2">Number of Mission:</div> <input type="text" name="target_num" placeholder="Mission no for targets" required><br>
         <div class= "p-2"><input type="submit"></div>
-        </div>
         </form>
         <!-- creating a button with links to other pages with light blue colour-->
         <a class="btn btn-info" href="index.php" role="button">Main Page</a>
         <a class="btn btn-info" href="view_tar.php" role="button">View targets</a>
+        </div>
       </body>
 </html>
