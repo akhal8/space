@@ -57,7 +57,7 @@
         </div>
         </form>
         <div class="row">
-        <div class="col-md-12 text-center text-white p-5">
+        <div class="col-md-12 text-center text-white p-2">
         <!-- Creating a link with a button to move to a home page and view mission.-->
         <a class="btn btn-info" href="index.php" role="button">Main Page</a>
         <!--<a class="col-md-12 justify-content-center text-center" href='index.php'><button>Main Page</button></a>-->
