@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang = "en">
     <head>
         <title>Astronaut</title>
         <!--links which are used to connect with bootstrap framework css and js latest version-->
@@ -49,7 +49,7 @@
         <div class="p-1"> Number of Missions</div> <input type="Number" name="no_missions" placeholder="10,11,20..." required><br>
         <div class= "p-1"><input type="submit" name="ast_submit"></div>
         </form>
-        <a div class="col-md-12 justify-content-center text-center p-2" href='index.php'><button>Main Page</button></a>
-        <a div class="col-md-12 justify-content-center text-center p-2" href='view_ast.php'><button>View Astronauts</button></a>
+        <button><a div class="col-md-12 justify-content-center text-center p-2" href='index.php'>Main Page</a></button>
+        <button><a div class="col-md-12 justify-content-center text-center p-2" href='view_ast.php'>View Astronauts</a></button>
     </body>
 </html>

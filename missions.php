@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang = "en">
     <head>
         <!-- Title of the page-->
         <title>Missions</title>
@@ -57,7 +57,7 @@
         </div>
         </form>
         <!-- Creating a link with a button to move to a home page and view mission.-->
-        <a class="col-md-12 justify-content-center text-center" href='index.php'><button>Main Page</button></a>
-        <a class="col-md-12 justify-content-center text-center p-2" href='view_mis.php'><button>View Missions</button></a>
+        <button><a class="col-md-12 justify-content-center text-center" href='index.php'>Main Page</a></button>
+        <button><a class="col-md-12 justify-content-center text-center p-2" href='view_mis.php'>View Missions</a></button>
     </body>
 </html>
