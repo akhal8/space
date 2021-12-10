@@ -14,6 +14,6 @@ if (!$connection) {
 }
 /*if the connection is successfull write it worked*/
 else {
-    echo "<script>alert('Astronaut Added Successfully.)</script>";
+    echo "the connection to the database was succussful";
 }
 ?>

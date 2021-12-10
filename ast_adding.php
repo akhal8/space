@@ -17,7 +17,7 @@ if(!mysqli_query($connection, $sql)){
 }
 /*if the query is successfull write Data Inserted*/
 else{
-    //echo "Success, Your have been stored data into the database.";
+    "";
 }
 
 /*This code is used to close the connection with the database*/
